@@ -8,7 +8,7 @@ module.exports = {
       if (!result) return ;
       if (result.fullName) {
          const { test } = result.fullName;
-         console.log(result.fullName);
+        // console.log(result.fullName);
          result.lastName = result.fullName.split(' ')[1]
          result.firstName = result.fullName.split(' ')[0]
       }
@@ -23,7 +23,7 @@ module.exports = {
     // await db.collection('albums').updateOne({artist: 'The Beatles'}, {$set: {blacklisted: false}});
     await db.collection('employees').find({ lastName: { $exists: true }}).forEach(result => {
       if (!result) return ;
-      console.log(result.firstName);
+      //console.log(result.firstName);
       result.fullName = result.firstName + " " + result.lastName;
       return db.collection('employees').save(result)
    });
