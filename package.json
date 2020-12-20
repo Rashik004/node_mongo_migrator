@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riyadhuddin/membership_mongo.git"
+    "url": "git+https://github.com/Rashik004/node_mongo_migrator.git"
   },
   "keywords": [
     "mongodb",
@@ -17,12 +17,12 @@
     "nodejs",
     "expressjs"
   ],
-  "author": "Riyadh Uddin",
+  "author": "Rashik Hasnat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/riyadhuddin/membership_mongo/issues"
+    "url": "https://github.com/Rashik004/node_mongo_migrator/issues"
   },
-  "homepage": "https://github.com/riyadhuddin/membership_mongo#readme",
+  "homepage": "https://github.com/Rashik004/node_mongo_migrator#readme",
   "dependencies": {
     "@handlebars/allow-prototype-access": "^1.0.3",
     "body-parser": "^1.19.0",
