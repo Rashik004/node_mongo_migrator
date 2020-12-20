@@ -74,6 +74,19 @@ router.get('/list', (req, res) => {
     });
 });
 
+router.get('/splitNameList', (req, res) => {
+    Employee.find((err, docs) => {
+        if (!err) {
+            res.render("employee/splitNameList", {
+                list: docs
+            });
+        }
+        else {
+            console.log('Error in retrieving employee list :' + err);
+        }
+    });
+});
+
 
 function handleValidationError(err, body) {
     for (field in err.errors) {

@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 var employeeSchema = new mongoose.Schema({
     fullName: {
         type: String,
-        required: 'This field is required.'
+        //required: 'This field is required.'
     },
     email: {
         type: String
@@ -13,6 +13,14 @@ var employeeSchema = new mongoose.Schema({
     },
     city: {
         type: String
+    },
+    firstName: {
+        type: String,
+        //required: 'This field is required.'
+    },
+    lastName: {
+        type: String,
+        //required: 'This field is required.'
     }
 });
 
