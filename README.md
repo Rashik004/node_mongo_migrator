@@ -27,7 +27,7 @@ You can add new data by clicking create new or just run the seed data migration 
 ## Running the migrations
 First you need to create a migration file, to create migration file, go to powershell terminal and write following command:
 
-		migrate-mongo [you-migration-name]
+		migrate-mongo create [you-migration-name]
 
 A new file will be created starting with the creation timestamp and followed by migration name. in this new file you can copy paste code from one of the files from sample-migrations directory.
 
